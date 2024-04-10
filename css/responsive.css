@@ -1,0 +1,2238 @@
+/*xs*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /*HeadingS Section CSS Start*/
+#headings{
+    background-color: #0f2f44;
+}
+.welcome_headings p{
+    margin: auto;
+    color: #ffc712;
+    font-size: 13px;
+    text-align: center;
+}
+.opening_heading{
+    margin-top:-18px;
+}
+.opening_heading p{
+    margin: auto;
+    color: #fefefe;
+    font-size: 13px;
+    text-align: center;
+}
+/*//HeadingS Section CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #fefefe;
+    position: relative;
+}
+
+.brand img{
+    height: 52px;
+    width: 163px; 
+}
+#main_menu {
+   background-color: orange;
+    margin-top: 9px;
+    
+}
+
+#main_menu ul li a{
+    color: #0f2f44;
+    font-size: 9px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+  /*  padding: 9px;*/
+    text-align: center;
+    
+   }
+  /* #main_menu ul li a:last-child{
+    border:none;
+   }*/
+#main_menu ul li:hover a{
+    color: #fefefe;
+    background-color: #0f2f44;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background: #e1eeff;
+    background-size: cover;
+    background-position: center;
+    height:444px;
+}
+.banner_content{
+    margin-top: 52px;
+}
+.banner_heading h1{
+   color: #0f2f44;
+   font-size: 43px;
+}
+.banner_ambition_heading{
+    margin-top: 13px;
+}
+.banner_ambition_heading h2{
+    color: #0f2f44;
+    font-size: 22px;
+}
+.banner_paragraph{
+    margin-top: 13px;
+}
+.banner_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 13px;
+}
+.banner_explore_More{
+    margin-top:52px;
+}
+.banner_explore_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #ffc712;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 9px;
+    border-radius: 9px;
+}
+.banner_explore_More:hover a{
+    color: #fefefe;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_section_part{
+    margin-top: 42px;
+}
+.about_quesstion p{
+    color: #0f2f44;
+    font-size: 13px;
+}
+.about_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.about_paragraph{
+    margin-top: 13px;
+}
+.about_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 13px;
+}
+.about_links{
+   margin-top: 42px;
+}
+/*
+.know_More{
+    width: 50%;
+}*/
+.know_More a{
+     background-color: #ffc712;
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #0f2f44;
+    padding: 9px;
+    border-radius: 8px;
+}
+.know_More:hover a{
+    color: #fefefe;
+}
+/*
+.read_Later{
+    left: 42%;
+    transform: translateX(-36%);
+   width: 50%
+    position: absolute;
+}*/
+.read_Later a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #00ffff;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #0f2f44;
+    padding: 9px;
+    border-radius: 8px;
+}
+.read_Later:hover a{
+    color: #fefefe;
+}
+.about_image{
+    margin-top: 20px;
+}
+.about_image img{
+    width: 100%;
+    height: 401px;
+}
+/*//About Section CSS End*/
+/*Services Section CSS Start*/
+.services_content{
+    margin-top: 72px;
+}
+.services_question p{
+    color: #0f2f44;
+}
+.services_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.gallary_menu_section{
+    margin-top: 32px;
+}
+.gallary_menu_section ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary_menu_section ul li{
+    margin: 2px;
+    font-weight: bold;
+    color: #0f2f44;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 9px;
+}
+.gallary_menu_section ul li.active,
+.gallary_menu_section ul li:hover{
+    color: #fff;
+    background-color: #0f2f44;
+    border-radius: 8px;
+}
+.gallary_image_section {
+    margin-top: 16px;
+    justify-content: center;
+}
+.image_gallary{
+    position: relative;
+}
+.image_gallary img{
+    height: 215px;
+    transition: all linear 0.5s;
+    width: 315px;
+    padding: 13px 13px;
+}
+.image_gallary:hover img{
+    background-color: #eee;
+}
+.image_gallary_overlay{
+    left: 13px;
+    right: 13px;
+    transition: all linear 0.5s;
+    visibility: hidden;
+   position: absolute;
+   background-color: rgba(84, 83, 98, 0.40);
+   top: 13px;
+  bottom: 13px;
+  opacity: 0;
+}
+.image_gallary:hover .image_gallary_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.image_gallary_overlay_content{
+    margin-top: 62px;
+}
+.image_gallary_overlay_headings h6{
+    font-weight: bold;
+    color: #fff;
+}
+.image_gallary_overlay_paragraph{
+    margin-top: 4px;
+}
+.image_gallary_overlay_paragraph p{
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+}
+
+.image_gallary_overlay_icons{
+    margin-top: 4px;
+}
+.image_gallary_overlay_icons a i{
+    color: #fff;
+    transition: all linear 0.5s;
+    background-color: #0f2f44;
+    padding: 6px;
+}
+.image_gallary_overlay_icons a:hover i{
+    color: #0f2f44;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+/*//Services Section CSS End*/
+/*TeStiMoNiALS Section CSS Start*/
+.testimonials_image_ceo_written_section{
+   margin: auto;
+    width: 100%;
+    transition: all linear 0.5s;
+   background-color:  #e9e9e9;
+  border-radius: 9px;
+   
+}
+.testimonials_image_ceo_written_section:hover{
+    background-color: #0f2f44;
+}
+/*
+.ceo_image_written_section{
+    padding: 13px;
+}
+*/
+.testimonials_ceo_image img{
+  /*  height: 42px;*/
+   width: 100%;
+}
+.testimonials_section_part{
+    margin-top: 32px;
+}
+.testimonials_ceo_written{
+    padding: 15px;
+}
+.ceo_name{
+    margin-top: 13px;
+}
+.ceo_name h4{
+    color: #0f2f44;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+}
+.testimonials_image_ceo_written_section:hover .ceo_name h4{
+    color: #fff;
+}
+.ceo_professional_section{
+    margin-top: 9px;
+}
+.ceo_office_address p{
+   color: #0f2f44;
+   font-size: 13px;
+}
+.testimonials_image_ceo_written_section:hover .ceo_office_address p{
+    color: #fff;
+}
+.ceo p{
+    color: #0f2f44; 
+    font-size: 13px;
+}
+.testimonials_image_ceo_written_section:hover .ceo p{
+    color: #fff;
+}
+.ceo_contact{
+    margin-top: 13px;
+}
+.ceo_contact a{
+    font-size: 9px;
+    color: #fefefe;
+    text-transform: capitalize;
+    background-color: #0f2f44;
+    padding: 9px;
+    border-radius: 9px;
+}
+.testimonials_image_ceo_written_section:hover .ceo_contact a{
+    color: #0f2f44;
+    background-color: #fefefe;
+}
+.oscar_ceo{
+    margin-top: 13px;
+}
+/*//TeStiMoNiALS Section CSS End*/
+/*BLogS Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.blog_image_overlay_section{
+    width: 100%;
+    margin: 3px;
+    transition: all linear 0.5s;
+    background-color: #e9e9e9;
+}
+.blog_image_overlay_section:hover{
+    background-color: #0f2f44;
+}
+.blog_pic{
+    padding: 12px;
+}
+.blog_pic img{
+    width: 100%;
+    height: 170px;
+}
+.blog_date p{
+    color: #0f2f44;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_date p{
+    color: #fff;
+}
+.blog_paragraph{
+    margin-top: 9px;
+}
+.blog_paragraph p{
+    color: #0f2f44;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_paragraph p{
+    color: #fff;
+}
+.blog_read_More{
+    margin-top: 22px;
+}
+.blog_read_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_read_More a{
+    color: #fff;
+}
+.blog_read_More a:hover i{
+    color: #ffc712;
+    padding-left: 3px;
+}
+/*//BLogS Section CSS End*/
+/*Contact Section CSS Start*/
+.contact_form_section{
+    margin-top: 22px;
+}
+.name_contact{
+    padding: 13px;
+}
+.name_contact input{
+    font-size: 13px;
+width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+  
+}
+.name_contact input:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.message_contact{
+    margin-top: 14px;
+    padding: 13px;
+}
+.message_contact textarea{
+    font-size: 13px;
+    width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+    height: 150px;
+}
+.message_contact textarea:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.send_contact{
+    margin-top: 32px;
+}
+.send_contact a{
+    background-color: #0f2f44;
+    font-weight: bold;
+    color: #fefefe;
+    font-size: 13px;
+    border-radius: 13px;
+    padding: 9px;
+}
+/*//Contact Section CSS End*/
+/*Footer Section CSS Start*/
+#footer{
+    margin-top: 19px;
+    background-color: #0f2f44;
+}
+.footer_content p{
+    font-size: 13px;
+    color: #fefefe;
+    padding: 13px;
+}
+/*//Footer Section CSS End*/
+}
+/*sm*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /*HeadingS Section CSS Start*/
+#headings{
+    background-color: #0f2f44;
+}
+.welcome_headings p{
+    margin: auto;
+    color: #ffc712;
+    font-size: 16px;
+    text-align: center;
+}
+.opening_heading{
+    margin-top:-18px;
+}
+.opening_heading p{
+    margin: auto;
+    color: #fefefe;
+    font-size: 16px;
+    text-align: center;
+}
+/*//HeadingS Section CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #fefefe;
+}
+.brand img{
+    height: 52px;
+    width: 163px; 
+}
+#main_menu {
+    background-color: orange;
+    margin-top: 15px;
+}
+#main_menu ul li a{
+    color: #0f2f44;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+  /*  padding: 9px;*/
+    text-align: center;
+   /* border-bottom: 1px solid #0f2f44;*/
+   }
+  /* #main_menu ul li a:last-child{
+    border:none;
+   }*/
+#main_menu ul li:hover a{
+    color: #fefefe;
+    background-color: #0f2f44;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background: #e1eeff;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+}
+.banner_content{
+    margin-top: 52px;
+}
+.banner_heading h1{
+   color: #0f2f44;
+   font-size: 50px;
+}
+.banner_ambition_heading{
+    margin-top: 13px;
+}
+.banner_ambition_heading h2{
+    color: #0f2f44;
+    font-size: 28px;
+}
+.banner_paragraph{
+    margin-top: 13px;
+}
+.banner_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 16px;
+}
+.banner_explore_More{
+    margin-top:52px;
+}
+.banner_explore_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #ffc712;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #0f2f44;
+    padding: 9px;
+    border-radius: 9px;
+}
+.banner_explore_More:hover a{
+    color: #fefefe;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_section_part{
+    margin-top: 42px;
+}
+.about_quesstion p{
+    color: #0f2f44;
+    font-size: 15px;
+}
+.about_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.about_paragraph{
+    margin-top: 13px;
+}
+.about_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 15px;
+}
+.about_links{
+   margin-top: 52px;
+}
+/*
+.know_More{
+    width: 50%;
+}*/
+.know_More a{
+     background-color: #ffc712;
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.know_More:hover a{
+    color: #fefefe;
+}
+/*
+.read_Later{
+    left: 42%;
+    transform: translateX(-36%);
+   width: 50%
+    position: absolute;
+}*/
+.read_Later a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #00ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.read_Later:hover a{
+    color: #fefefe;
+}
+.about_image{
+    margin-top: 20px;
+}
+.about_image img{
+    width: 100%;
+    height: 401px;
+}
+/*//About Section CSS End*/
+/*Services Section CSS Start*/
+.services_content{
+    margin-top: 72px;
+}
+.services_question p{
+    color: #0f2f44;
+}
+.services_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.gallary_menu_section{
+    margin-top: 32px;
+}
+.gallary_menu_section ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary_menu_section ul li{
+    margin: 2px;
+    font-weight: bold;
+    color: #0f2f44;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 13px;
+}
+.gallary_menu_section ul li.active,
+.gallary_menu_section ul li:hover{
+    color: #fff;
+    background-color: #0f2f44;
+    border-radius: 8px;
+}
+.gallary_image_section {
+    margin-top: 22px;
+    justify-content: center;
+}
+.image_gallary{
+    position: relative;
+}
+.image_gallary img{
+    height: 215px;
+    transition: all linear 0.5s;
+    width: 315px;
+    padding: 13px 13px;
+}
+.image_gallary:hover img{
+    background-color: #eee;
+}
+.image_gallary_overlay{
+    left: 13px;
+    right: 13px;
+    transition: all linear 0.5s;
+    visibility: hidden;
+   position: absolute;
+   background-color: rgba(84, 83, 98, 0.40);
+   top: 13px;
+  bottom: 13px;
+  opacity: 0;
+}
+.image_gallary:hover .image_gallary_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.image_gallary_overlay_content{
+    margin-top: 62px;
+}
+.image_gallary_overlay_headings h6{
+    font-weight: bold;
+    color: #fff;
+}
+.image_gallary_overlay_paragraph{
+    margin-top: 4px;
+}
+.image_gallary_overlay_paragraph p{
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+}
+
+.image_gallary_overlay_icons{
+    margin-top: 4px;
+}
+.image_gallary_overlay_icons a i{
+    color: #fff;
+    transition: all linear 0.5s;
+    background-color: #0f2f44;
+    padding: 6px;
+}
+.image_gallary_overlay_icons a:hover i{
+    color: #0f2f44;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+/*//Services Section CSS End*/
+/*TeStiMoNiALS Section CSS Start*/
+.testimonials_image_ceo_written_section{
+    margin: auto;
+     width: 100%;
+     transition: all linear 0.5s;
+    background-color:  #e9e9e9;
+   border-radius: 9px;
+}
+ .testimonials_image_ceo_written_section:hover{
+     background-color: #0f2f44;
+ }
+
+ 
+ .testimonials_ceo_image img{
+  
+    width: 100%;
+ }
+ .testimonials_section_part{
+     margin-top: 32px;
+ }
+ .testimonials_ceo_written{
+     padding: 15px;
+ }
+ .ceo_name{
+     margin-top: 20px;
+ }
+ .ceo_name h4{
+     color: #0f2f44;
+     font-style: italic;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_name h4{
+     color: #fff;
+ }
+ .ceo_professional_section{
+     margin-top: 13px;
+ }
+ .ceo_office_address p{
+    color: #0f2f44;
+    font-size: 18px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_office_address p{
+     color: #fff;
+ }
+ .ceo p{
+     color: #0f2f44; 
+     font-size: 18px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo p{
+     color: #fff;
+ }
+ .ceo_contact{
+     margin-top: 42px;
+ }
+ .ceo_contact a{
+     font-size: 13px;
+     color: #fefefe;
+     text-transform: capitalize;
+     background-color: #0f2f44;
+     padding: 9px;
+     border-radius: 9px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_contact a{
+     color: #0f2f44;
+     background-color: #fefefe;
+ }
+ .oscar_ceo{
+     margin-top: 13px;
+ }
+ /*//TeStiMoNiALS Section CSS End*/
+/*BLogS Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.blog_image_overlay_section{
+    width: 100%;
+    margin: 3px;
+    transition: all linear 0.5s;
+    background-color: #e9e9e9;
+}
+.blog_image_overlay_section:hover{
+    background-color: #0f2f44;
+}
+.blog_pic{
+    padding: 12px;
+}
+.blog_pic img{
+    width: 100%;
+ height: 270px;
+}
+.blog_date p{
+    color: #0f2f44;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_date p{
+    color: #fff;
+}
+.blog_paragraph{
+    margin-top: 13px;
+}
+.blog_paragraph p{
+    color: #0f2f44;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_paragraph p{
+    color: #fff;
+}
+.blog_read_More{
+    margin-top: 32px;
+}
+.blog_read_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_read_More a{
+    color: #fff;
+}
+.blog_read_More a:hover i{
+    color: #ffc712;
+    padding-left: 3px;
+}
+/*//BLogS Section CSS End*/
+/*Contact Section CSS Start*/
+.contact_form_section{
+    margin-top: 32px;
+}
+.name_contact{
+    padding: 13px;
+}
+.name_contact input{
+    font-size: 16px;
+width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+  
+}
+.name_contact input:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.message_contact{
+    margin-top: 14px;
+    padding: 13px;
+}
+.message_contact textarea{
+    font-size: 16px;
+    width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+    height: 150px;
+}
+.message_contact textarea:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.send_contact{
+    margin-top: 32px;
+}
+.send_contact a{
+    background-color: #0f2f44;
+    font-weight: bold;
+    color: #fefefe;
+    font-size: 15px;
+    border-radius: 13px;
+    padding: 13px;
+}
+/*//Contact Section CSS End*/
+/*Footer Section CSS Start*/
+#footer{
+    margin-top: 19px;
+    background-color: #0f2f44;
+}
+.footer_content p{
+    font-size: 15px;
+    color: #fefefe;
+    padding: 13px;
+}
+/*//Footer Section CSS End*/
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+            /*HeadingS Section CSS Start*/
+#headings{
+    background-color: #0f2f44;
+}
+.welcome_headings p{
+    margin: auto;
+    color: #ffc712;
+    font-size: 16px;
+    text-align: center;
+}
+.opening_heading{
+    margin-top:-18px;
+}
+.opening_heading p{
+    margin: auto;
+    color: #fefefe;
+    font-size: 16px;
+    text-align: center;
+}
+/*//HeadingS Section CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #fefefe;
+}
+.brand img{
+    height: 52px;
+    width: 163px; 
+}
+#main_menu {
+    background-color: orange;
+    margin-top: 15px;
+}
+#main_menu ul li a{
+    color: #0f2f44;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+  /*  padding: 9px;*/
+    text-align: center;
+   /* border-bottom: 1px solid #0f2f44;*/
+   }
+  /* #main_menu ul li a:last-child{
+    border:none;
+   }*/
+#main_menu ul li:hover a{
+    color: #fefefe;
+    background-color: #0f2f44;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background: #e1eeff;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+}
+.banner_content{
+    margin-top: 52px;
+}
+.banner_heading h1{
+   color: #0f2f44;
+   font-size: 50px;
+}
+.banner_ambition_heading{
+    margin-top: 13px;
+}
+.banner_ambition_heading h2{
+    color: #0f2f44;
+    font-size: 28px;
+}
+.banner_paragraph{
+    margin-top: 13px;
+}
+.banner_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 16px;
+}
+.banner_explore_More{
+    margin-top:52px;
+}
+.banner_explore_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #ffc712;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #0f2f44;
+    padding: 9px;
+    border-radius: 9px;
+}
+.banner_explore_More:hover a{
+    color: #fefefe;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_section_part{
+    margin-top: 42px;
+}
+.about_quesstion p{
+    color: #0f2f44;
+    font-size: 15px;
+}
+.about_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.about_paragraph{
+    margin-top: 13px;
+}
+.about_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 15px;
+}
+.about_links{
+   margin-top: 52px;
+}
+/*
+.know_More{
+    width: 50%;
+}*/
+.know_More a{
+     background-color: #ffc712;
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.know_More:hover a{
+    color: #fefefe;
+}
+/*
+.read_Later{
+    left: 42%;
+    transform: translateX(-36%);
+   width: 50%
+    position: absolute;
+}*/
+.read_Later a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #00ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.read_Later:hover a{
+    color: #fefefe;
+}
+.about_image{
+    margin-top: 20px;
+}
+.about_image img{
+    width: 100%;
+    height: 401px;
+}
+/*//About Section CSS End*/
+/*Services Section CSS Start*/
+.services_content{
+    margin-top: 72px;
+}
+.services_question p{
+    color: #0f2f44;
+}
+.services_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.gallary_menu_section{
+    margin-top: 32px;
+}
+.gallary_menu_section ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary_menu_section ul li{
+    margin: 2px;
+    font-weight: bold;
+    color: #0f2f44;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 13px;
+}
+.gallary_menu_section ul li.active,
+.gallary_menu_section ul li:hover{
+    color: #fff;
+    background-color: #0f2f44;
+    border-radius: 8px;
+}
+.gallary_image_section {
+    margin-top: 22px;
+  /*  justify-content: center;*/
+}
+.image_gallary{
+    position: relative;
+}
+.image_gallary img{
+    height: 215px;
+    transition: all linear 0.5s;
+    width: 100%;
+    padding: 13px 13px;
+}
+.image_gallary:hover img{
+    background-color: #eee;
+}
+.image_gallary_overlay{
+    left: 13px;
+    right: 13px;
+    transition: all linear 0.5s;
+    visibility: hidden;
+   position: absolute;
+   background-color: rgba(84, 83, 98, 0.40);
+   top: 13px;
+  bottom: 13px;
+  opacity: 0;
+}
+.image_gallary:hover .image_gallary_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.image_gallary_overlay_content{
+    margin-top: 62px;
+}
+.image_gallary_overlay_headings h6{
+    font-weight: bold;
+    color: #fff;
+}
+.image_gallary_overlay_paragraph{
+    margin-top: 4px;
+}
+.image_gallary_overlay_paragraph p{
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+}
+
+.image_gallary_overlay_icons{
+    margin-top: 4px;
+}
+.image_gallary_overlay_icons a i{
+    color: #fff;
+    transition: all linear 0.5s;
+    background-color: #0f2f44;
+    padding: 6px;
+}
+.image_gallary_overlay_icons a:hover i{
+    color: #0f2f44;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+/*//Services Section CSS End*/
+/*TeStiMoNiALS Section CSS Start*/
+.testimonials_image_ceo_written_section{
+    margin: 52px;
+    transition: all linear 0.5s;
+   background-color:  #e9e9e9;
+   width: 533px;
+   border-radius: 13px;
+   
+}
+.testimonials_image_ceo_written_section:hover{
+    background-color: #0f2f44;
+}
+
+.ceo_image_written_section{
+    padding: 13px;
+}
+.testimonials_section_part{
+    margin-top: 52px;
+}
+.testimonials_ceo_written{
+    padding: 15px;
+}
+.ceo_name{
+    margin-top: 32px;
+}
+.ceo_name h4{
+    color: #0f2f44;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.testimonials_image_ceo_written_section:hover .ceo_name h4{
+    color: #fff;
+}
+.ceo_professional_section{
+    margin-top: 17px;
+}
+.ceo_office_address p{
+   color: #0f2f44;
+  
+}
+.testimonials_image_ceo_written_section:hover .ceo_office_address p{
+    color: #fff;
+}
+.ceo p{
+    color: #0f2f44; 
+    
+}
+.testimonials_image_ceo_written_section:hover .ceo p{
+    color: #fff;
+}
+.ceo_contact{
+    margin-top: 29px;
+}
+.ceo_contact a{
+    font-size: 13px;
+    color: #fefefe;
+    text-transform: capitalize;
+    background-color: #0f2f44;
+    padding: 13px;
+    border-radius: 9px;
+}
+.testimonials_image_ceo_written_section:hover .ceo_contact a{
+    color: #0f2f44;
+    background-color: #fefefe;
+}
+/*//TeStiMoNiALS Section CSS End*/
+/*BLogS Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.blog_image_overlay_section{
+    width: 100%;
+    margin: 3px;
+    transition: all linear 0.5s;
+    background-color: #e9e9e9;
+}
+.blog_image_overlay_section:hover{
+    background-color: #0f2f44;
+}
+.blog_pic{
+    padding: 12px;
+}
+.blog_pic img{
+    width: 100%;
+ height: 270px;
+}
+.blog_date p{
+    color: #0f2f44;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_date p{
+    color: #fff;
+}
+.blog_paragraph{
+    margin-top: 13px;
+}
+.blog_paragraph p{
+    color: #0f2f44;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_paragraph p{
+    color: #fff;
+}
+.blog_read_More{
+    margin-top: 32px;
+}
+.blog_read_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_read_More a{
+    color: #fff;
+}
+.blog_read_More a:hover i{
+    color: #ffc712;
+    padding-left: 3px;
+}
+/*//BLogS Section CSS End*/
+ /*Contact Section CSS Start*/
+ .contact_form_section{
+    margin-top: 32px;
+}
+.name_contact{
+    padding: 13px;
+}
+.name_contact input{
+    font-size: 16px;
+width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+  
+}
+.name_contact input:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.message_contact{
+    margin-top: 14px;
+    padding: 13px;
+}
+.message_contact textarea{
+    font-size: 16px;
+    width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+    height: 150px;
+}
+.message_contact textarea:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.send_contact{
+    margin-top: 32px;
+}
+.send_contact a{
+    background-color: #0f2f44;
+    font-weight: bold;
+    color: #fefefe;
+    font-size: 15px;
+    border-radius: 13px;
+    padding: 13px;
+}
+/*//Contact Section CSS End*/
+/*Footer Section CSS Start*/
+#footer{
+    margin-top: 19px;
+    background-color: #0f2f44;
+}
+.footer_content p{
+    font-size: 15px;
+    color: #fefefe;
+    padding: 13px;
+}
+/*//Footer Section CSS End*/
+}
+/*lg*/
+@media (min-width: 992px) and (max-width:1199.98px) {
+    /*HeadingS Section CSS Start*/
+#headings{
+    background-color: #0f2f44;
+}
+.welcome_headings p{
+    color: #ffc712;
+    padding: 13px;
+}
+.opening_heading p{
+    color: #fefefe;
+    padding: 13px;
+}
+/*//HeadingS Section CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #fefefe;
+}
+
+#main_menu ul li a{
+    color: #0f2f44;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    padding: 17px;
+}
+#main_menu ul li:hover a{
+    color: #ffc712;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/Bizzency-\(1\)-Recovered-Recovered.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.banner_content{
+    margin-top: 152px;
+}
+.banner_heading h1{
+   color: #0f2f44;
+   font-size: 82px;
+}
+.banner_ambition_heading{
+    margin-top: 22px;
+}
+.banner_ambition_heading h2{
+    color: #0f2f44;
+}
+.banner_paragraph{
+    margin-top: 16px;
+}
+.banner_paragraph p{
+    color: #0f2f44;
+}
+.banner_explore_More{
+    margin-top: 82px;
+}
+.banner_explore_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #ffc712;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 15px;
+}
+.banner_explore_More:hover a{
+    color: #fefefe;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_section_part{
+    margin-top: 42px;
+}
+.about_quesstion p{
+    color: #0f2f44;
+    font-size: 15px;
+}
+.about_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.about_paragraph{
+    margin-top: 13px;
+}
+.about_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 15px;
+}
+.about_links{
+   margin-top: 52px;
+}
+/*
+.know_More{
+    width: 50%;
+}*/
+.know_More a{
+     background-color: #ffc712;
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.know_More:hover a{
+    color: #fefefe;
+}
+/*
+.read_Later{
+    left: 42%;
+    transform: translateX(-36%);
+   width: 50%
+    position: absolute;
+}*/
+.read_Later a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #00ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.read_Later:hover a{
+    color: #fefefe;
+}
+.about_image{
+    margin-top: 20px;
+}
+.about_image img{
+    width: 100%;
+    height: 401px;
+}
+/*//About Section CSS End*/
+/*Services Section CSS Start*/
+.services_content{
+    margin-top: 72px;
+}
+.services_question p{
+    color: #0f2f44;
+}
+.services_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.gallary_menu_section{
+    margin-top: 32px;
+}
+.gallary_menu_section ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary_menu_section ul li{
+    margin: 2px;
+    font-weight: bold;
+    color: #0f2f44;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 13px;
+}
+.gallary_menu_section ul li.active,
+.gallary_menu_section ul li:hover{
+    color: #fff;
+    background-color: #0f2f44;
+    border-radius: 8px;
+}
+.gallary_image_section {
+    margin-top: 22px;
+  /*  justify-content: center;*/
+}
+.image_gallary{
+    position: relative;
+}
+.image_gallary img{
+    height: 215px;
+    transition: all linear 0.5s;
+    width: 100%;
+    padding: 13px 13px;
+}
+.image_gallary:hover img{
+    background-color: #eee;
+}
+.image_gallary_overlay{
+    left: 13px;
+    right: 13px;
+    transition: all linear 0.5s;
+    visibility: hidden;
+   position: absolute;
+   background-color: rgba(84, 83, 98, 0.40);
+   top: 13px;
+  bottom: 13px;
+  opacity: 0;
+}
+.image_gallary:hover .image_gallary_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.image_gallary_overlay_content{
+    margin-top: 62px;
+}
+.image_gallary_overlay_headings h6{
+    font-weight: bold;
+    color: #fff;
+}
+.image_gallary_overlay_paragraph{
+    margin-top: 4px;
+}
+.image_gallary_overlay_paragraph p{
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+}
+
+.image_gallary_overlay_icons{
+    margin-top: 4px;
+}
+.image_gallary_overlay_icons a i{
+    color: #fff;
+    transition: all linear 0.5s;
+    background-color: #0f2f44;
+    padding: 6px;
+}
+.image_gallary_overlay_icons a:hover i{
+    color: #0f2f44;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+/*//Services Section CSS End*/
+/*TeStiMoNiALS Section CSS Start*/
+.testimonials_image_ceo_written_section{
+    margin: auto;
+     width: 48%;
+     transition: all linear 0.5s;
+    background-color:  #e9e9e9;
+   border-radius: 9px;
+}
+ .testimonials_image_ceo_written_section:hover{
+     background-color: #0f2f44;
+ }
+ 
+ .ceo_image_written_section{
+    padding: 13px;
+ }
+ 
+ 
+ .testimonials_ceo_image img{
+width: 100%;
+ }
+ .testimonials_section_part{
+     margin-top: 32px;
+ }
+ .testimonials_ceo_written{
+     padding: 22px
+ }
+ .ceo_name{
+     margin-top: 22px;
+ }
+ .ceo_name h4{
+     color: #0f2f44;
+     font-style: italic;
+     font-size: 13px;
+     font-weight: bold;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_name h4{
+     color: #fff;
+ }
+ .ceo_professional_section{
+     margin-top: 2px;
+ }
+ .ceo_office_address p{
+    color: #0f2f44;
+    font-size: 13px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_office_address p{
+     color: #fff;
+ }
+ .ceo p{
+     color: #0f2f44; 
+     font-size: 13px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo p{
+     color: #fff;
+ }
+ .ceo_contact{
+     margin-top: 22px;
+ }
+ .ceo_contact a{
+     font-size: 9px;
+     color: #fefefe;
+     text-transform: capitalize;
+     background-color: #0f2f44;
+     padding: 9px;
+     border-radius: 9px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_contact a{
+     color: #0f2f44;
+     background-color: #fefefe;
+ }
+ 
+ .oscar_ceo{
+     margin-left: 13px;
+ }
+ /*//TeStiMoNiALS Section CSS End*/
+ /*BLogS Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.blog_image_overlay_section{
+    width: 29%;
+    margin: 13px;
+    transition: all linear 0.5s;
+    background-color: #e9e9e9;
+}
+.blog_image_overlay_section:hover{
+    background-color: #0f2f44;
+}
+.blog_pic{
+    padding: 12px;
+}
+.blog_pic img{
+    width: 100%;
+    height: 170px;
+}
+.blog_date p{
+    color: #0f2f44;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_date p{
+    color: #fff;
+}
+.blog_paragraph{
+    margin-top: 9px;
+}
+.blog_paragraph p{
+    color: #0f2f44;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_paragraph p{
+    color: #fff;
+}
+.blog_read_More{
+    margin-top: 22px;
+}
+.blog_read_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_read_More a{
+    color: #fff;
+}
+.blog_read_More a:hover i{
+    color: #ffc712;
+    padding-left: 3px;
+}
+/*//BLogS Section CSS End*/
+  /*Contact Section CSS Start*/
+  .contact_form_section{
+    margin-top: 32px;
+}
+.name_contact{
+    padding: 13px;
+}
+.name_contact input{
+    font-size: 16px;
+width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+  
+}
+.name_contact input:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.message_contact{
+    margin-top: 14px;
+    padding: 13px;
+}
+.message_contact textarea{
+    font-size: 16px;
+    width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+    height: 150px;
+}
+.message_contact textarea:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.send_contact{
+    margin-top: 32px;
+}
+.send_contact a{
+    background-color: #0f2f44;
+    font-weight: bold;
+    color: #fefefe;
+    font-size: 15px;
+    border-radius: 13px;
+    padding: 13px;
+}
+/*//Contact Section CSS End*/
+/*Footer Section CSS Start*/
+#footer{
+    margin-top: 19px;
+    background-color: #0f2f44;
+}
+.footer_content p{
+    font-size: 15px;
+    color: #fefefe;
+    padding: 13px;
+}
+/*//Footer Section CSS End*/
+}
+/*xl*/
+@media (min-width: 1200px) and (max-width:1399.98px){
+    /*HeadingS Section CSS Start*/
+#headings{
+    background-color: #0f2f44;
+}
+.welcome_headings p{
+    color: #ffc712;
+    padding: 13px;
+}
+.opening_heading p{
+    color: #fefefe;
+    padding: 13px;
+}
+/*//HeadingS Section CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #fefefe;
+}
+
+#main_menu ul li a{
+    color: #0f2f44;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    padding: 17px;
+}
+#main_menu ul li:hover a{
+    color: #ffc712;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/Bizzency-\(1\)-Recovered-Recovered.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.banner_content{
+    margin-top: 152px;
+}
+.banner_heading h1{
+   color: #0f2f44;
+   font-size: 82px;
+}
+.banner_ambition_heading{
+    margin-top: 22px;
+}
+.banner_ambition_heading h2{
+    color: #0f2f44;
+}
+.banner_paragraph{
+    margin-top: 16px;
+}
+.banner_paragraph p{
+    color: #0f2f44;
+}
+.banner_explore_More{
+    margin-top: 82px;
+}
+.banner_explore_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #ffc712;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 15px;
+}
+.banner_explore_More:hover a{
+    color: #fefefe;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_section_part{
+    margin-top: 42px;
+}
+.about_quesstion p{
+    color: #0f2f44;
+    font-size: 15px;
+}
+.about_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.about_paragraph{
+    margin-top: 13px;
+}
+.about_paragraph p{
+    color: #0f2f44;
+    width: 100%;
+    font-size: 15px;
+}
+.about_links{
+   margin-top: 52px;
+}
+/*
+.know_More{
+    width: 50%;
+}*/
+.know_More a{
+     background-color: #ffc712;
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.know_More:hover a{
+    color: #fefefe;
+}
+/*
+.read_Later{
+    left: 42%;
+    transform: translateX(-36%);
+   width: 50%
+    position: absolute;
+}*/
+.read_Later a{
+    color: #0f2f44;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    background-color: #00ffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #0f2f44;
+    padding: 13px;
+    border-radius: 8px;
+}
+.read_Later:hover a{
+    color: #fefefe;
+}
+.about_image{
+    margin-top: 20px;
+}
+.about_image img{
+    width: 100%;
+    height: 401px;
+}
+/*//About Section CSS End*/
+/*Services Section CSS Start*/
+.services_content{
+    margin-top: 72px;
+}
+.services_question p{
+    color: #0f2f44;
+}
+.services_heading h3{
+    color: #0f2f44;
+    font-weight: bold;
+}
+.gallary_menu_section{
+    margin-top: 32px;
+}
+.gallary_menu_section ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary_menu_section ul li{
+    margin: 2px;
+    font-weight: bold;
+    color: #0f2f44;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 13px;
+}
+.gallary_menu_section ul li.active,
+.gallary_menu_section ul li:hover{
+    color: #fff;
+    background-color: #0f2f44;
+    border-radius: 8px;
+}
+.gallary_image_section {
+    margin-top: 22px;
+  /*  justify-content: center;*/
+}
+.image_gallary{
+    position: relative;
+}
+.image_gallary img{
+    height: 215px;
+    transition: all linear 0.5s;
+    width: 100%;
+    padding: 13px 13px;
+}
+.image_gallary:hover img{
+    background-color: #eee;
+}
+.image_gallary_overlay{
+    left: 13px;
+    right: 13px;
+    transition: all linear 0.5s;
+    visibility: hidden;
+   position: absolute;
+   background-color: rgba(84, 83, 98, 0.40);
+   top: 13px;
+  bottom: 13px;
+  opacity: 0;
+}
+.image_gallary:hover .image_gallary_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.image_gallary_overlay_content{
+    margin-top: 62px;
+}
+.image_gallary_overlay_headings h6{
+    font-weight: bold;
+    color: #fff;
+}
+.image_gallary_overlay_paragraph{
+    margin-top: 4px;
+}
+.image_gallary_overlay_paragraph p{
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+}
+
+.image_gallary_overlay_icons{
+    margin-top: 4px;
+}
+.image_gallary_overlay_icons a i{
+    color: #fff;
+    transition: all linear 0.5s;
+    background-color: #0f2f44;
+    padding: 6px;
+}
+.image_gallary_overlay_icons a:hover i{
+    color: #0f2f44;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+/*//Services Section CSS End*/
+/*TeStiMoNiALS Section CSS Start*/
+.testimonials_image_ceo_written_section{
+    margin: auto;
+     width: 48%;
+     transition: all linear 0.5s;
+    background-color:  #e9e9e9;
+   border-radius: 9px;
+  
+    
+ }
+ .testimonials_image_ceo_written_section:hover{
+     background-color: #0f2f44;
+ }
+ 
+ .ceo_image_written_section{
+    padding: 13px;
+ }
+ 
+ 
+ .testimonials_ceo_image img{
+width: 100%;
+ }
+ .testimonials_section_part{
+     margin-top: 32px;
+ }
+ .testimonials_ceo_written{
+     padding: 22px
+ }
+ .ceo_name{
+     margin-top: 22px;
+ }
+ .ceo_name h4{
+     color: #0f2f44;
+     font-style: italic;
+     font-size: 16px;
+     font-weight: bold;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_name h4{
+     color: #fff;
+ }
+ .ceo_professional_section{
+     margin-top: 2px;
+ }
+ .ceo_office_address p{
+    color: #0f2f44;
+    font-size: 15px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_office_address p{
+     color: #fff;
+ }
+ .ceo p{
+     color: #0f2f44; 
+     font-size: 15px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo p{
+     color: #fff;
+ }
+ .ceo_contact{
+     margin-top: 42px;
+ }
+ .ceo_contact a{
+     font-size: 13px;
+     color: #fefefe;
+     text-transform: capitalize;
+     background-color: #0f2f44;
+     padding: 9px;
+     border-radius: 9px;
+ }
+ .testimonials_image_ceo_written_section:hover .ceo_contact a{
+     color: #0f2f44;
+     background-color: #fefefe;
+ }
+ 
+ .oscar_ceo{
+     margin-left: 13px;
+ }
+ 
+ /*//TeStiMoNiALS Section CSS End*/
+  /*BLogS Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.blog_image_overlay_section{
+    width: 29%;
+    margin: 13px;
+    transition: all linear 0.5s;
+    background-color: #e9e9e9;
+}
+.blog_image_overlay_section:hover{
+    background-color: #0f2f44;
+}
+.blog_pic{
+    padding: 12px;
+}
+.blog_pic img{
+    width: 100%;
+    height: 270px;
+}
+.blog_date p{
+    color: #0f2f44;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_date p{
+    color: #fff;
+}
+.blog_paragraph{
+    margin-top: 16px;
+}
+.blog_paragraph p{
+    color: #0f2f44;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_paragraph p{
+    color: #fff;
+}
+.blog_read_More{
+    margin-top: 26px;
+}
+.blog_read_More a{
+    color: #0f2f44;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all linear 0.5s;
+}
+.blog_image_overlay_section:hover .blog_read_More a{
+    color: #fff;
+}
+.blog_read_More a:hover i{
+    color: #ffc712;
+    padding-left: 3px;
+}
+/*//BLogS Section CSS End*/
+  /*Contact Section CSS Start*/
+  .contact_form_section{
+    margin-top: 32px;
+}
+.name_contact{
+    padding: 13px;
+}
+.name_contact input{
+    font-size: 16px;
+width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+  
+}
+.name_contact input:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.message_contact{
+    margin-top: 14px;
+    padding: 13px;
+}
+.message_contact textarea{
+    font-size: 16px;
+    width: 100%;
+    padding: 9px;
+    color: #0f2f44;
+    height: 190px;
+}
+.message_contact textarea:focus{
+    border-color: #0f2f44;
+    color: #0f2f44;
+    box-shadow: none;
+    outline: none;
+}
+.send_contact{
+    margin-top: 32px;
+}
+.send_contact a{
+    background-color: #0f2f44;
+    font-weight: bold;
+    color: #fefefe;
+    font-size: 15px;
+    border-radius: 13px;
+    padding: 13px;
+}
+/*//Contact Section CSS End*/
+/*Footer Section CSS Start*/
+#footer{
+    margin-top: 19px;
+    background-color: #0f2f44;
+}
+.footer_content p{
+    font-size: 15px;
+    color: #fefefe;
+    padding: 13px;
+}
+/*//Footer Section CSS End*/
+}
+
+/*xxl*/
+@media (min-width:1400px) {}
